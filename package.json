@@ -2,10 +2,11 @@
   "name": "wings",
   "version": "1.0.0",
   "description": "API for TheBest.Pictures",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "babel src -d lib"
+    "prestart": "babel src -d lib",
+    "start": "node lib/index.js"
   },
   "author": "",
   "license": "ISC",
