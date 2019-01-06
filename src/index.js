@@ -3,6 +3,12 @@ import movies from './movies/allMovies';
 
 const api = express();
 
+api.use((_, res, next) => {
+    res.header("Access-Control-Allow-Origin", "http://localhost:3000");
+    next();
+})
+
+
 api.get('/get-movies', (req, res) => {
     res.send(movies);
 });
