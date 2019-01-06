@@ -1,0 +1,5 @@
+# Transpiled files
+lib/**
+
+# Node Modules
+node_modules
