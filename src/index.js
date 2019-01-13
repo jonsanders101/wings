@@ -10,6 +10,8 @@ api.use((_, res, next) => {
 
 
 api.get('/get-movies', (req, res) => {
+    console.log(`<--- ${req.originalUrl}`);
+    console.log(`---> Status: ${res.statusCode}`);
     res.send(movies);
 });
 
