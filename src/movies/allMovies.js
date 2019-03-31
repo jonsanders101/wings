@@ -899,4 +899,15 @@ export default [
       review: null,
       synopsis:
          FILLER_TEXT
-   }]
+   },
+   {
+      name: 'The Green Book',
+      awardNumber: 91,
+      releaseYear: 2018,
+      seen: false,
+      rating: null,
+      review: null,
+      synopsis:
+         FILLER_TEXT
+   }
+]
